@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../services/index';
 import Card from '../Card/Card';
-import { Link } from 'react-router-dom';
+
 
 const Main = () => {
   const [fruits, setFruits] = useState([]);
@@ -16,21 +16,13 @@ const Main = () => {
   }, []);
 
   return (
-      
-
-        <main>
+    <main>
       {fruits.map((fruit, index) => (
-          
-        <Link to={`/${fruit.name}`} fruit={fruit}>
-        <Card fruit={fruit} key={index} />
-
-        </Link>
-         
         
+          <Card fruit={fruit} key={index} />
+      
       ))}
     </main>
-
-  
   );
 };
 

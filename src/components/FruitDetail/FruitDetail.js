@@ -50,7 +50,7 @@ const FruitDetail = ({ match }) => {
               </li>
             </ul>
             <img
-              className="fruit-container"
+              className="fruit-img"
               src={fruit.photo}
               alt={fruit.name}
             />

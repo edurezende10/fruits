@@ -1,8 +1,8 @@
 .container-fruit {
-  padding: 20px;
+  padding: 20px 0;
   box-shadow: 1px 1px 2px #ccc;
   width: 100%;
-  height: 40vh;
+  height: 40%;
   color: black;
 }
 .wrapper {
@@ -18,8 +18,30 @@
   color: black;
 }
 
-.container-fruit img {
-  max-width: 20%;
+.container-fruit  img {
+  max-width: 100%;
 
   box-shadow: 1px 1px 2px #ccc;
+}
+
+.fruit-link{
+  width: fit-content;
+  max-width: 20%;
+}
+
+@media(max-width:700px){
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .container-fruit h2 {
+    margin-bottom: 2rem;
+  }
+  .container-fruit  img {
+    max-width: 100%;
+  }
+  .fruit-link{
+    max-width: 50%;
+  }
+
 }

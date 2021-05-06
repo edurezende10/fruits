@@ -5,9 +5,13 @@
     height: 85vh;
 }
 
-.fruit-container{
+.fruit-img{
     height: 70%;
+    order: 2;
    
+}
+.main-fruit-detail{
+    order: 1;
 }
 .main-fruit-detail li span{
    font-size: 1.2em;
@@ -20,4 +24,20 @@
     font-size: 1.5em;
     line-height: 1.5;
     text-transform: capitalize;
+}
+@media (max-width:750px){
+    .container-fruit-detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .fruit-img{
+        height: 70%;
+        order: 1;
+        margin-top:8em ;
+    }
+    .main-fruit-detail{
+        order: 2;
+        margin-top: 1em;
+    }
+
 }
