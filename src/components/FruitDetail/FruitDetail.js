@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../services';
-import instanceAxios from '../../services/axios';
 import './FruitDetail.css';
 
 const FruitDetail = ({ match }) => {
