@@ -1,10 +1,7 @@
-import axios from 'axios'
+import axios from 'axios';
 
 const instanceAxios = axios.create({
-    baseURL:"http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits.json"
-})
+  baseURL: 'https://pocs.digitalpages.com.br/mock/api/fruits-api/fruits.json',
+});
 
-
-export default instanceAxios
-
-
+export default instanceAxios;
