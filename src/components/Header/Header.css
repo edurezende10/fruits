@@ -1,0 +1,43 @@
+.header{
+    width: 100%;
+    height: 15vh;
+    background: forestgreen;
+    display: flex;
+    align-items: center;
+  
+}
+.header-wrapper{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+}
+.header--container{
+    display: flex;
+    align-items: center;
+}
+
+.hamburguer-menu{
+    color: inherit;
+    font-size: 3em;
+    margin: 0 20px;
+}
+.header--container__tittle{
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 1.8em;
+    color: inherit;
+}
+.return,
+.option{
+    color: inherit;
+    font-size: 2em;
+    margin: 10px;
+
+}
+.link{
+    color: inherit;
+}

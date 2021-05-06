@@ -1,0 +1,23 @@
+.container-fruit-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85vh;
+}
+
+.fruit-container{
+    height: 70%;
+   
+}
+.main-fruit-detail li span{
+   font-size: 1.2em;
+   line-height: 1.5;
+   
+
+}
+.main-fruit-detail li strong{
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
